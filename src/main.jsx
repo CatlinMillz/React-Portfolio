@@ -1,18 +1,41 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
-import './assets/css/bootstrap.min.css';
-import './assets/css/animate.css';
-import './assets/css/LineIcons.2.0.css';
-import './assets/css/main.css';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css'
 
+import Home from './pages/Home'
+import About from './pages/About'
 
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Projects from './pages/Projects.jsx';
+import Contact from './pages/Contact.jsx';
 
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    children:[
+      {
+        index: true,
+        element: <Home />
+      },
+      {
+        path: 'about',
+        element: <About />
+      },
+      {
+        path: 'projects',
+        element: <Projects />
+      },
+      {
+        path: 'contact',
+        element: <Contact />
+      }
+    ]
+  }
+]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
+ReactDOM.createRoot(document.getElementById('root')).render(
+<RouterProvider router={router}/>
+)
