@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
 import {useState} from 'react'
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -9,8 +10,9 @@ function App() {
     <>
       <Header />
       <Outlet />
+      <Footer />
     </>
   )
 }
 
-export default App
+export default App;

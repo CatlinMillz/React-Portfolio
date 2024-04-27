@@ -1,0 +1,19 @@
+body {
+    background-color: #F4FDD9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+    color: #F4FDD9;
+}
+
+.hero h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tag h6{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
