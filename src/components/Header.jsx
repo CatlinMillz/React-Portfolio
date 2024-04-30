@@ -53,10 +53,10 @@ export default function Header() {
         // </Navbar>
         <AppBar position="static">
             <Container maxWidth="xl" sx={{
-                    backgroundColor: '#3B5249',
-                }}>
+                backgroundColor: '#3B5249',
+            }}>
                 <Toolbar disableGutters
-                
+
                 >
                     {/* LOGO GOES HERE REPLACE THIS WITH YOUR CUSTOM LOGO */}
                     <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -68,7 +68,7 @@ export default function Header() {
                             aria-controls="menu-appbar"
                             aria-haspopup="true"
                             onClick={handleOpenNavMenu}
-                            
+
                         >
                             <MenuIcon />
                         </IconButton>
@@ -107,7 +107,7 @@ export default function Header() {
                     <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'flex-end', }}>
-                    
+
 
                         <Button
 
@@ -118,12 +118,20 @@ export default function Header() {
                             <Link to="/" className='nav-link' >Home</Link>
                         </Button>
 
-                        <Button
+                        {/* <Button
 
                             onClick={handleCloseNavMenu}
                             sx={{ my: 2, color: 'white', display: 'block' }}
                         >
                             <Link to="/about" className='nav-link'>About</Link>
+                        </Button> */}
+
+                        <Button
+
+                            onClick={handleCloseNavMenu}
+                            sx={{ my: 2, color: 'white', display: 'block' }}
+                        >
+                            <Link to="/photography" className='nav-link'>Photography</Link>
                         </Button>
 
                         <Button
@@ -131,7 +139,7 @@ export default function Header() {
                             onClick={handleCloseNavMenu}
                             sx={{ my: 2, color: 'white', display: 'block' }}
                         >
-                            <Link to="/projects" className='nav-link'>Projects</Link>
+                            <Link to="/development" className='nav-link'>Development</Link>
                         </Button>
 
                         <Button
