@@ -32,7 +32,7 @@ export default function Project(props) {
       <CardActions>
         {/* <Button size="small" onClick={()=> window.location.replace(project.demoUrl)} sx={{fontFamily: 'Shadows Into Light', fontSize: "18px"}}>Visit live site</Button> */}
         <NoHoverBtn variant="outlined" sx={{ color: 'black', border: '1px solid black', fontFamily: "Shadows Into Light" }} component={Link} to={project.demoUrl}>
-            Visit Project
+            View Demo
           </NoHoverBtn>
       </CardActions>
     </Card>
