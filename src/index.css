@@ -35,4 +35,21 @@ h3 {
     font-size: large;
 }
 
-
+.picBox {
+    width: 290px;
+    height: 290px;
+    margin: 5px;
+    background: #888;
+    float: left;
+  }
+  
+  .picBox:hover {
+    background: #999;
+    cursor: pointer;
+  }
+  
+  .picBox.large {
+    background: #084;
+    z-index: 2;
+    
+  }

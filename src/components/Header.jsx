@@ -51,10 +51,10 @@ export default function Header() {
         //         </Navbar.Collapse>
         //     </Container>
         // </Navbar>
-        <AppBar position="static">
-            <Container maxWidth="xl" sx={{
-                backgroundColor: '#3B5249',
-            }}>
+        <AppBar position="static" sx={{
+            backgroundColor: '#3B5249',
+        }}>
+            <Container maxWidth="xl" >
                 <Toolbar disableGutters
 
                 >
