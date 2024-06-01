@@ -11,6 +11,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Development from './pages/Development';
 import Contact from './pages/Contact';
 import Photography from './pages/Photography';
+import Thanks from './pages/Thanks.jsx';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: 'photography',
         element: <Photography />
+      },
+      {
+        path: 'thanks',
+        element: <Thanks />
       }
     ]
   }
