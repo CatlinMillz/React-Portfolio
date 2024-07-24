@@ -16,8 +16,8 @@ export default function Hero() {
                         <h2>Hej</h2>
                         <h2>Bonjour</h2>
                     </div>
-                    <h6 className="tag" >I'm Maja, Jag heter Maja, Je m'appelle Maja</h6>
-                    {/* <p>A photographer for 15 years, I originally started my professional journey studying my BFA at UIUC in 2012-2015. I have photographed countless concerts, weddings, engagements, runway shows, you name it. I attended the Full Stack Development bootcamp through UM in 2023-2024. I have experience with HTML, CSS, JavaScript, Node.js, Express, MySQL, MongoDB, and React</p> */}
+                    <h6 className="tag" >I'm Cat, Jag heter Cat, Je m'appelle Cat</h6>
+                    {/* <p>A photographer for 15 years, I originally started my professional journey studying my BFA at UIUC in the mid 2000s. I have photographed countless concerts, weddings, engagements, runway shows, you name it. I attended the Full Stack Development bootcamp through UM in 2023-2024. I have experience with HTML, CSS, JavaScript, Node.js, Express, MySQL, MongoDB, and React. In my free time I enjoy attempting to play metal on the cello and piano, drawing digital art, playing the Heavy in competitive Splatoon and simply vegging out at home with my husband and elderly Bengal cat (photo by me pictured above in 2014).</p> */}
                 </Box>
 
             </Box>
