@@ -10,51 +10,51 @@ export default function Photography() {
   const imgArr = [
     {
       id: 1,
-      content: 'https://picsum.photos/200/293'
+      content: 'https://www.dropbox.com/scl/fi/7q1xc41ktgjhzdqjouvnx/6N5A4149.jpg?rlkey=6tr85de2owbbtc3mwzpl598zf&st=pu4bo5zy&dl=0'
     },
     {
       id: 2,
-      content: 'https://picsum.photos/200/219'
+      content: 'https://www.dropbox.com/scl/fi/k6vrzfrtksm0hbj10qy5s/6N5A8725.jpg?rlkey=7uwh3p2yh7ksc0onit0hachue&st=69rv23rc&dl=0'
     },
     {
       id: 3,
-      content: 'https://picsum.photos/200/200'
+      content: 'https://www.dropbox.com/scl/fi/l9iiljgdi1n46b2gxz7n6/6N5A9239.jpg?rlkey=39fz2vv0471hfvrw8scxs3s1f&st=0ld04mcq&dl=0'
     },
     {
       id: 4,
-      content: 'https://picsum.photos/200/201'
+      content: 'https://www.dropbox.com/scl/fi/8u24sztp2wra2jcib48vq/6N5A8612final.jpg?rlkey=uio2abkv6tdlx6ucffajzrw2r&st=z1dolm7z&dl=0'
     },
     {
       id: 5,
-      content: 'https://picsum.photos/200/202'
+      content: 'https://www.dropbox.com/scl/fi/bmawhay6a8goqvzr9540i/6N5A3302-2.jpg?rlkey=kqrr6c8fyxrfk5jv0b9euj51q&st=f3v6ibg4&dl=0'
     },
     {
       id: 6,
-      content: 'https://picsum.photos/200/203'
+      content: 'https://www.dropbox.com/scl/fi/dkrv7mrar4ojbifhlqta8/6N5A3680-2.jpg?rlkey=9zil7z1t5h9t9ayetb4oe9elc&st=o9wzapr1&dl=0'
     },
     {
       id: 7,
-      content: 'https://picsum.photos/200/204'
+      content: 'https://www.dropbox.com/scl/fi/32sjtw7dlxx5xptn3zz11/6N5A3407-p.jpg?rlkey=ctc9xdiq2amf0dd84h2kaj40y&st=gd05w2r8&dl=0'
     },
     {
       id: 8,
-      content: 'https://picsum.photos/200/205'
+      content: 'https://www.dropbox.com/scl/fi/wiop29vddqljm6aabpj6m/6N5A4155-2.jpg?rlkey=rtmgxecotup7m48wbw0be6x6d&st=x4dh7i2b&dl=0'
     },
     {
       id: 9,
-      content: 'https://picsum.photos/200/206'
+      content: 'https://www.dropbox.com/scl/fi/y8gpwpgjnk3vkkyabsjfg/6N5A8710-2.jpg?rlkey=rd88yjvbk3g7o9tp4qaut8tv2&st=3f0cu7k0&dl=0'
     },
     {
       id: 10,
-      content: 'https://picsum.photos/200/207'
+      content: 'https://www.dropbox.com/scl/fi/k89cwqn96k28n7hua6trk/6N5A9640-2.jpg?rlkey=7mu6gj74s0l60arqmjasielrt&st=h8hisuff&dl=0'
     },
     {
       id: 11,
-      content: 'https://picsum.photos/200/208'
+      content: 'https://consequence.net/wp-content/uploads/2017/03/radiohead-cat-miller-69-of-146.png'
     },
     {
       id: 12,
-      content: 'https://picsum.photos/200/209'
+      content: 'https://consequence.net/wp-content/uploads/2017/05/kendrick-lamar-by-catlin-miller4.jpg'
     }
 
   ]
