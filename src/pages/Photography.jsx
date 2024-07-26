@@ -38,7 +38,7 @@ export default function Photography() {
     },
     {
       id: 8,
-      content: 'https://www.dropbox.com/scl/fi/wiop29vddqljm6aabpj6m/6N5A4155-2.jpg?rlkey=rtmgxecotup7m48wbw0be6x6d&st=x4dh7i2b&dl=0'
+      content: 'https://uc1bfe78c4cd72a56a97c94ad8e7.previews.dropboxusercontent.com/p/thumb/ACXSMib-E3hXKDkcf_HQ1f3sbOVd3yPPgaN3XVciTpcouSo1qWa3G7gQUrOEELPMBIIU8bBDsilbT6CCpIC3CqAgNk2Hog897ZnqVAuFTZ5U3pGkFDJLeExpWWyB-_G75FfDw8_gPL7LwZtRIau8aIeJA2mQcuhzyuj9BenKJ-bXUELRDkf_JzPKSoXvwdqMX_DGi2sFFQI1oKx3Ce6bPc7tNDnJ03tuOP5JjyixUkvUhqh4N4OgJJ414lyLixmemnBYGPSURRtTUXHlRGLW3xB4UDU4Oj9Ly8O0ahazEX2eU_ajXaApsUP-k0Oi79D-Re2fMQo3qDm1CL3Iwg7XF8-8RomcPmNtnJshnqcvauGUgOPc49opL6e_PDH8tjqNsGpbSPKemiWfYM2TKoLrA5nE/p.jpeg?is_prewarmed=true'
     },
     {
       id: 9,
@@ -86,6 +86,7 @@ export default function Photography() {
       src={img.content}
       onClick={() => handleClick(img.id)}
       className={`masonry-item`}
+      width='50%'
     />
 
   ));
@@ -103,7 +104,7 @@ export default function Photography() {
       </Masonry>
       {enlarged && (
         <div className={`overlay ${enlarged ? 'show' : ''}`} onClick={() => handleClick(null)}>
-          <img src={imgArr.find(img => img.id === enlarged).content} alt="enlarged" className={`overlay-content ${isAnimating ? 'hide': 'show'}`} />
+          <img height={'35%'} src={imgArr.find(img => img.id === enlarged).content} alt="enlarged" className={`overlay-content ${isAnimating ? 'hide': 'show'}`} />
         </div>
 
       )}

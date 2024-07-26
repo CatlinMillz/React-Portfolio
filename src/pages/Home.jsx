@@ -27,6 +27,8 @@ export default function Home() {
 
           <p> I attended the Full Stack Development bootcamp through UM in 2023-2024. I have experience with HTML, CSS, JavaScript, Node.js, Express, MySQL, MongoDB, and React</p>
 
+          <p>In my free time I enjoy attempting to play metal on the cello and piano, drawing digital art, playing the Heavy in competitive Splatoon and simply vegging out at home with my husband and elderly Bengal cat (photo by me pictured above in 2014).</p>
+
           {/* <Button variant="outlined" sx={{ color: 'black', border: '2px solid black' }} onClick={() => window.location.replace('/about')} >
             Click Here
           </Button> */}
