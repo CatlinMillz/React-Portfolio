@@ -23,7 +23,7 @@ export default function Home() {
 
       <Box sx={{ paddingTop: '30px', paddingBottom: '30px', }}>
         <Box sx={{ padding: '30px', marginBottom: '5%' }}>
-          <p>A photographer for 15 years, I originally started my professional journey studying my BFA at UIUC in 2012-2015. I have photographed countless concerts, weddings, engagements, runway shows, you name it.</p>
+          <p>Hey! I'm Catlin but you can call me Cat. A photographer for 15 years, I originally started my professional journey studying my BFA at UIUC in 2012-2015. I have photographed countless concerts, weddings, engagements, runway shows, you name it.</p>
 
           <p> I attended the Full Stack Development bootcamp through UM in 2023-2024. I have experience with HTML, CSS, JavaScript, Node.js, Express, MySQL, MongoDB, and React</p>
 

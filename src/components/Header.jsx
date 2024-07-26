@@ -17,6 +17,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
+import cmc from '../assets/CMC.png'; 
+
 export default function Header() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
@@ -59,8 +61,9 @@ export default function Header() {
 
                 >
                     {/* LOGO GOES HERE REPLACE THIS WITH YOUR CUSTOM LOGO */}
-                    <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+                    {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
 
+ <img src={cmc} alt="cat coding logo"  width={110}/> 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}  >
                         <IconButton
                             size="large"
