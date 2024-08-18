@@ -154,5 +154,8 @@ h3 {
         max-width: 100%;
     }
     
+    .overlay-content{
+        height: 25%;
+    }
     
   }
