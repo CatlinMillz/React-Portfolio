@@ -2,6 +2,9 @@ import { useState } from 'react'
 import Masonry from 'react-masonry-css';
 import './MasonryGrid.css'
 
+// import images
+import radiohead from '../assets/photos/radiohead.png'
+
 export default function Photography() {
 
   const [enlarged, setEnlarged] = useState(null)
@@ -50,7 +53,7 @@ export default function Photography() {
     },
     {
       id: 11,
-      content: 'https://consequence.net/wp-content/uploads/2017/03/radiohead-cat-miller-69-of-146.png'
+      content: radiohead
     },
     {
       id: 12,

@@ -18,11 +18,33 @@ body {
     /* color: #F4FDD9; */
 }
 
+.tag {
+    text-align: center;
+}
+
 .tag h6 {
     font-family: "Shadows Into Light", cursive;
     font-weight: 400;
     font-style: italic;
     /* color: #F4FDD9; */
+}
+
+.hero-container{
+    padding: 2%;
+    text-align: center;
+}
+
+.heroContent {
+    padding: 2;
+    display: flex;
+    justify-content: space-between;
+    height: 40%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-text-left{
+    width: 60%;
 }
 
 .hero-container h1, .hero-container h3 {
@@ -59,5 +81,62 @@ h3 {
   .picBox.large {
     background: #084;
     z-index: 2;
+    
+  }
+
+  .profile-pic-box{
+    width: '40%';
+    text-align: 'center'
+  }
+
+
+  .profile-pic{
+    width: 300px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .hero h2 {
+        font-size: 2rem;
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        /* color: #F4FDD9; */
+    }
+    
+    .tag h6 {
+        font-family: "Shadows Into Light", cursive;
+        font-weight: 400;
+        font-style: italic;
+        /* color: #F4FDD9; */
+    }
+    
+    .hero-container h1, .hero-container h3 {
+        /* font-family: "Shadows Into Light", cursive; */
+        font-weight: 800;
+        /* font-style: italic; */
+        /* color: #F4FDD9; */
+    }
+
+    .profile-pic-box{
+        width: '40%';
+        text-align: center
+      }
+    
+    
+      .profile-pic{
+        width: 150px;
+      }
+    
+
+      .heroContent {
+        padding: 2;
+        display: flex;
+        justify-content: center;
+        height: 40%;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    
     
   }
