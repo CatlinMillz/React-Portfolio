@@ -5,7 +5,7 @@ import Box from '@mui/material/Box';
 
 export default function Development() {
   return (
-    <Box  className="project-box" sx={{display: 'flex', flexWrap: 'wrap'}}>
+    <Box  className="project-box" sx={{display: 'flex'}}>
       {projectData.map((project, index) => (<Project key={index} project={project}/>))} 
     </Box>
   )
