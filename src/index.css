@@ -94,6 +94,12 @@ h3 {
     width: 300px;
   }
 
+  .card{
+    max-width: 30%;
+    margin: 35px;
+    box-shadow: 2;
+}
+
   @media screen and (max-width: 768px) {
     .hero h2 {
         font-size: 2rem;
@@ -131,12 +137,22 @@ h3 {
       .heroContent {
         padding: 2;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         height: 40%;
         align-items: center;
         flex-wrap: wrap;
     }
     
+    .project-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .card{
+        max-width: 100%;
+    }
     
     
   }

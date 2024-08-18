@@ -15,25 +15,25 @@ const NoHoverBtn = styled(Button)({
 });
 
 export default function Project(props) {
-  const {project} = props;
+  const { project } = props;
   return (
-    <Card sx={{ maxWidth: '30%', margin: '35px', boxShadow: 2 }} variant="outlined">
+    <Card variant="outlined" className='card'>
       <CardContent>
-    
-        <Typography variant="h5" component="div" sx={{fontFamily: 'Montserrat', fontWeight: "bold"}} >
-         {project.title}
+
+        <Typography variant="h5" component="div" sx={{ fontFamily: 'Montserrat', fontWeight: "bold" }} >
+          {project.title}
         </Typography>
         {/* GIF goes here */}
         <Typography sx={{ mb: 1.5, fontFamily: 'Montserrat' }} color="text.secondary" >
-        {project.description}
+          {project.description}
         </Typography>
-        
+
       </CardContent>
       <CardActions>
         {/* <Button size="small" onClick={()=> window.location.replace(project.demoUrl)} sx={{fontFamily: 'Shadows Into Light', fontSize: "18px"}}>Visit live site</Button> */}
         <NoHoverBtn variant="outlined" sx={{ color: 'black', border: '1px solid black', fontFamily: "Shadows Into Light" }} component={Link} to={project.demoUrl}>
-            View Demo
-          </NoHoverBtn>
+          View Demo/Site
+        </NoHoverBtn>
       </CardActions>
     </Card>
   )

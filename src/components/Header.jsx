@@ -64,7 +64,7 @@ export default function Header() {
                     {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
 
                     <img src={cmc} alt="cat coding logo" width={110} />
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}  >
+                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none', justifyContent: 'flex-end' } }}  >
                         <IconButton
                             size="large"
                             aria-label="account of current user"

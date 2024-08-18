@@ -35,7 +35,7 @@ export default function Home() {
         </Box>
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '30px', border: '1px solid black', boxShadow: '0px 0px 3px 3px #519872', marginBottom: '2%' }}>
          
-          <NoHoverBtn variant="outlined" sx={{ color: 'black', border: '1px solid black', fontFamily: "Shadows Into Light" }} component={Link} to='/photography'>
+          <NoHoverBtn variant="outlined" sx={{ color: 'black', border: '1px solid black', fontFamily: "Shadows Into Light", marginRight: '10px' }} component={Link} to='/photography'>
             I want to see photos!
           </NoHoverBtn>
 
