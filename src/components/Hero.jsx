@@ -9,8 +9,8 @@ export default function Hero() {
  
     return (
 <Box className="hero-container" >
-            <h1>CAT'S MEOW CODING</h1>
-            <h3>(and photography)</h3>
+            {/* <h1>CAT'S MEOW CODING</h1>
+            <h3>(and photography)</h3> */}
         <Box className='heroContent' >
             <Box className='hero-text-left' >
                 <Box className="tag">
