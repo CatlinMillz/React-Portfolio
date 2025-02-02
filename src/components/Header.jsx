@@ -96,6 +96,7 @@ export default function Header() {
                             <Link to="/" className='nav-link'>Home</Link>
                             <Link to="/photography" className='nav-link'>Photography</Link>
                             <Link to="/development" className='nav-link'>Development</Link>
+                            <Link to="/about" className='nav-link'>About</Link>
                             <Link to="/contact" className='nav-link'>Contact</Link>
 
                             {/* {pages.map((page) => (
@@ -143,6 +144,14 @@ export default function Header() {
                             sx={{ my: 2, color: 'white', display: 'block' }}
                         >
                             <Link to="/development" className='nav-link'>Development</Link>
+                        </Button>
+
+                        <Button
+
+                            onClick={handleCloseNavMenu}
+                            sx={{ my: 2, color: 'white', display: 'block' }}
+                        >
+                            <Link to="/about" className='nav-link'>About</Link>
                         </Button>
 
                         <Button

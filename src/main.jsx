@@ -12,6 +12,7 @@ import Development from './pages/Development';
 import Contact from './pages/Contact';
 import Photography from './pages/Photography';
 import Thanks from './pages/Thanks.jsx';
+import HomePage from './pages/HomePage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
     children:[
       {
         index: true,
-        element: <Home />
+        element: <HomePage />
       },
       {
         path: 'about',

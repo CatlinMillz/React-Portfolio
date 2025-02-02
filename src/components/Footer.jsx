@@ -14,7 +14,7 @@ export default function Footer() {
           <LinkedInIcon />
         </IconButton>
       </Box>
-      <p>© 2024 Cat's Meow Coding</p>
+      <p>© 2024 Cat's Meow Creative</p>
     </Box>
   )
 }

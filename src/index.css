@@ -10,13 +10,13 @@ body {
 }
 
 
-.hero h2 {
-    font-size: 5rem;
-    font-family: "Archivo Black", sans-serif;
+/* .hero h2 { */
+    /* font-size: 5rem; */
+    /* font-family: "Archivo Black", sans-serif;
     font-weight: 800;
-    font-style: normal;
+    font-style: normal; */
     /* color: #F4FDD9; */
-}
+/* } */
 
 .tag {
     text-align: center;
@@ -29,7 +29,7 @@ body {
     /* color: #F4FDD9; */
 }
 
-.hero-container{
+.hero-container {
     padding: 2%;
     text-align: center;
 }
@@ -43,11 +43,12 @@ body {
     flex-wrap: wrap;
 }
 
-.hero-text-left{
+.hero-text-left {
     width: 60%;
 }
 
-.hero-container h1, .hero-container h3 {
+.hero-container h1,
+.hero-container h3 {
     /* font-family: "Shadows Into Light", cursive; */
     font-weight: 800;
     /* font-style: italic; */
@@ -71,36 +72,200 @@ h3 {
     margin: 5px;
     background: #888;
     float: left;
-  }
-  
-  .picBox:hover {
+}
+
+.picBox:hover {
     background: #999;
     cursor: pointer;
-  }
-  
-  .picBox.large {
+}
+
+.picBox.large {
     background: #084;
     z-index: 2;
-    
-  }
 
-  .profile-pic-box{
+}
+
+.profile-pic-box {
     width: '40%';
     text-align: 'center'
-  }
+}
 
 
-  .profile-pic{
+.profile-pic {
     width: 300px;
-  }
+}
 
-  .card{
+.card {
     max-width: 30%;
     margin: 35px;
     box-shadow: 2;
 }
 
-  @media screen and (max-width: 768px) {
+
+/* NEW HERO STYLES */
+
+.hero-two {
+    position: relative;
+    height: 75vh;
+    /* Change this to whatever height you want */
+    /* background-color: #999; */
+    /* Change this to your hero image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./assets/photos/herobanner.jpg');
+    /* Your hero image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.cta-button {
+    font-size: 1.2rem;
+    background-color: #ff5722;
+    padding: 12px 24px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e64a19;
+}
+
+/* FeaturedPhotos.css */
+.featured-photos {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-photos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.photo-item img:hover {
+    transform: scale(1.05);
+}
+
+/* About.css */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Bio Section */
+/* Container Styling */
+.about-container {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+/* Hero Section */
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Highlighted Text */
+.highlight {
+    color: #3B5249;
+}
+
+/* Bio Section */
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Animations */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+.fade-in.delay {
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
     .hero h2 {
         font-size: 2rem;
         font-family: "Archivo Black", sans-serif;
@@ -108,33 +273,34 @@ h3 {
         font-style: normal;
         /* color: #F4FDD9; */
     }
-    
+
     .tag h6 {
         font-family: "Shadows Into Light", cursive;
         font-weight: 400;
         font-style: italic;
         /* color: #F4FDD9; */
     }
-    
-    .hero-container h1, .hero-container h3 {
+
+    .hero-container h1,
+    .hero-container h3 {
         /* font-family: "Shadows Into Light", cursive; */
         font-weight: 800;
         /* font-style: italic; */
         /* color: #F4FDD9; */
     }
 
-    .profile-pic-box{
+    .profile-pic-box {
         width: '40%';
         text-align: center
-      }
-    
-    
-      .profile-pic{
-        width: 150px;
-      }
-    
+    }
 
-      .heroContent {
+
+    .profile-pic {
+        width: 150px;
+    }
+
+
+    .heroContent {
         padding: 2;
         display: flex;
         flex-direction: column;
@@ -143,19 +309,19 @@ h3 {
         align-items: center;
         flex-wrap: wrap;
     }
-    
-    .project-box{
+
+    .project-box {
         display: flex;
         flex-direction: column;
     }
 
 
-    .card{
+    .card {
         max-width: 100%;
     }
-    
-    .overlay-content{
+
+    .overlay-content {
         height: 25%;
     }
-    
-  }
+
+}
