@@ -16,9 +16,9 @@ export default function Hero2() {
   return (
     <section className='hero-two'>
       <div className="hero-content">
-        <h1>New tag line</h1>
+        <h1>Hey, Hej, Bonjour!</h1>
         <p>Capturing moments, Creating memories.</p>
-        <NoHoverBtn variant="outlined" sx={{ color: 'white', border: '1px solid white',  marginRight: '10px' }} component={Link} to='/contact'>Get In touch</NoHoverBtn>
+        <NoHoverBtn variant="outlined" sx={{ color: 'white', border: '1px solid white',  marginRight: '10px' }} component={Link} to='/contact'>Let's Create!</NoHoverBtn>
         {/* <a href="/about" className="cta-btn">More about me</a> */}
       </div>
     </section>

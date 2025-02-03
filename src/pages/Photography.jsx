@@ -2,6 +2,8 @@ import { useState } from 'react'
 import Masonry from 'react-masonry-css';
 import './MasonryGrid.css'
 
+import maja from '../assets/maja.jpg';
+
 // import images
 import radiohead from '../assets/photos/radiohead.png'
 import kendricklamar from '../assets/photos/kendricklamar.jpg'
@@ -15,6 +17,11 @@ import fashion7 from '../assets/photos/fashion7.jpg'
 import albumart1 from '../assets/photos/albumart1.jpg'
 import maternity1 from '../assets/photos/maternity1.jpg'
 import wedding1 from '../assets/photos/wedding1.jpg'
+import doggo from '../assets/photos/doggo.jpg'
+import engagement1 from '../assets/photos/engagement1.jpg'
+import elopement1 from '../assets/photos/elopement1.jpg'
+import miami1 from '../assets/photos/miami1.jpg'
+import runway1 from '../assets/photos/runway1.jpg'
 
 export default function Photography() {
 
@@ -69,8 +76,31 @@ export default function Photography() {
     {
       id: 12,
       content: kendricklamar
+    },
+    {
+      id: 13,
+      content: maja
+    },
+    {
+      id: 14,
+      content: doggo
+    },
+    {
+      id: 15,
+      content: engagement1
+    },
+    {
+      id: 16,
+      content: elopement1
+    },
+    {
+      id: 17,
+      content: miami1
+    },
+    {
+      id: 18,
+      content: runway1
     }
-
   ]
 
 
